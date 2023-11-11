@@ -1,0 +1,85 @@
+:root{
+    --clr-primary:#B68C5A;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+section, footer{
+    margin-top: 100px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: EB Garamond !important;
+}
+/* Header */
+
+.title{
+   
+    font-size: 35px;
+    
+}
+.button-primary{
+    background-color: var(--clr-primary);
+    height: 55px;
+}
+/* banner */
+#banner{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-title{
+    font-size: 50px;
+   
+}
+.get-input {
+    height: 60px;
+    width: 80%;
+}
+
+/* main */
+.section-title{
+    font-size: 40px;
+   
+}
+.btn-arrow{
+    background-color: var(--clr-primary);
+}
+#row-1{
+    background-image: linear-gradient(90deg, #3d3a39 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#row-2{
+    background-image: linear-gradient(90deg, #3d3a39 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#row-3{
+    background-image: linear-gradient(90deg, #3d3a39 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/slider-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acd-btn{
+    font-size: 24px;
+    font-family: EB Garamond !important;
+
+}
+.acd-btn:not(.collapsed)::after {
+    
+    background-image: url('../images/icon/minus-solid.svg');
+}
+.acd-btn::after {
+    
+    background-image: url('../images/icon/plus-solid.svg');
+}
+.contact-img{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen  and (max-width:576px){
+    .banner-title{
+        font-size: 40px;
+    }
+}
